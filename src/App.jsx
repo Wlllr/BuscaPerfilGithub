@@ -4,15 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Busca from './components/Busca'
+import Card from './components/Card'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Busca/>
-      
+      <Card/>
     </>
   )
 }
