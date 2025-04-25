@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Busca/>
-      <Card/>
+      <Card></Card>
     </>
   )
 }
